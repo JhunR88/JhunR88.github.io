@@ -86,5 +86,23 @@ footer {
   background: #1a1a40;
   transform: translateY(-2px);
 }
+body.dark {
+  background: #121212;
+  color: #eee;
+}
+
+body.dark header {
+  background: #1a1a40;
+}
+
+body.dark li {
+  background: #1e1e1e;
+  color: #eee;
+}
+
+body.dark a {
+  color: #fff;
+}
+
 
 
