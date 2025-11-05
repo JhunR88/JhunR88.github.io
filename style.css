@@ -120,13 +120,99 @@ body.dark footer {
 
 .motto {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: right top;
   color: #fff;
   font-size: 1rem;
   font-style: italic;
-  max-width: 250px;
-  line-height: 1.4;
+  width: 300px;
+  line-height: 1.5;
+  text-align: center;
   opacity: 0.9;
 }
-
+.motto {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: right top;
+  color: #fff;
+  font-size: 1rem;
+  font-style: italic;
+  width: 300px;
+  line-height: 1.5;
+  text-align: center;
+  opacity: 0.9;
+}
+.motto {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: right top;
+  color: #fff;
+  font-size: 1rem;
+  font-style: italic;
+  width: 300px;
+  line-height: 1.5;
+  text-align: center;
+  opacity: 0.9;
+}
+.motto {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: right top;
+  color: #fff;
+  font-size: 1rem;
+  font-style: italic;
+  width: 300px;
+  line-height: 1.5;
+  text-align: center;
+  opacity: 0.9;
+}
+.motto {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: right top;
+  color: #fff;
+  font-size: 1rem;
+  font-style: italic;
+  width: 300px;
+  line-height: 1.5;
+  text-align: center;
+  opacity: 0.9;
+}
+.motto {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: right top;
+  color: #fff;
+  font-size: 1rem;
+  font-style: italic;
+  width: 300px;
+  line-height: 1.5;
+  text-align: center;
+  opacity: 0.9;
+}
+.motto {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: right top;
+  color: #fff;
+  font-size: 1rem;
+  font-style: italic;
+  width: 300px;
+  line-height: 1.5;
+  text-align: center;
+  opacity: 0.9;
+}
