@@ -5,6 +5,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  transition: background 0.3s, color 0.3s;
 }
 
 header {
@@ -27,7 +28,7 @@ header p {
 main {
   max-width: 800px;
   margin: 2rem auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 h2 {
@@ -65,6 +66,7 @@ footer {
   margin-top: 2rem;
   font-size: 0.9rem;
 }
+
 .profile-pic {
   width: 130px;
   height: 130px;
@@ -72,6 +74,7 @@ footer {
   border: 3px solid #fff;
   margin-bottom: 10px;
 }
+
 .btn {
   display: inline-block;
   padding: 10px 18px;
@@ -80,12 +83,14 @@ footer {
   border-radius: 6px;
   margin: 5px;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .btn:hover {
   background: #1a1a40;
   transform: translateY(-2px);
 }
+
 body.dark {
   background: #121212;
   color: #eee;
@@ -104,5 +109,10 @@ body.dark a {
   color: #fff;
 }
 
+body.dark a:hover {
+  color: #ffd700;
+}
 
-
+body.dark footer {
+  background: #1a1a1a;
+}
