@@ -65,3 +65,11 @@ footer {
   margin-top: 2rem;
   font-size: 0.9rem;
 }
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 10px;
+}
+
