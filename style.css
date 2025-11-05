@@ -125,3 +125,15 @@ body.dark a:hover {
 body.dark footer {
   background: #1a1a1a;
 }
+a {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row; /* logoyu sola, metni sağa alır */
+}
+
+a i {
+  margin-right: 6px;
+  color: #E4405F;
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
