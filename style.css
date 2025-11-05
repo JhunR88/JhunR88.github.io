@@ -27,6 +27,22 @@ header p {
   opacity: 0.9;
 }
 
+/* MOTTO YAZISI (dikey, header içinde, sağ tarafta) */
+.motto {
+  position: absolute;
+  top: 50%;
+  right: 5%; /* Daha responsive */
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: right center;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 0.9;
+  max-width: 400px;
+  text-align: center;
+  line-height: 1.4;
+}
+
 /* ANA İÇERİK */
 main {
   max-width: 800px;
@@ -124,20 +140,4 @@ body.dark a:hover {
 
 body.dark footer {
   background: #1a1a1a;
-}
-
-/* MOTTO YAZISI (dikey, header içinde, sağ tarafta) */
-.motto {
-  position: absolute;
-  top: 50%;
-  right: 40px;
-  transform: translateY(-50%) rotate(90deg);
-  transform-origin: right center;
-  color: #fff;
-  font-size: 1.1rem;
-  font-weight: 500;
-  opacity: 0.9;
-  max-width: 400px;
-  text-align: center;
-  line-height: 1.4;
 }
