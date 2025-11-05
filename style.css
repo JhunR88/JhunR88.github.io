@@ -8,6 +8,7 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
+/* HEADER */
 header {
   background: #0a0a23;
   color: #fff;
@@ -26,6 +27,7 @@ header p {
   opacity: 0.9;
 }
 
+/* ANA İÇERİK */
 main {
   max-width: 800px;
   margin: 2rem auto;
@@ -38,6 +40,7 @@ h2 {
   padding-bottom: 0.5rem;
 }
 
+/* LİSTELER */
 ul {
   list-style-type: none;
   padding: 0;
@@ -51,6 +54,7 @@ li {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* LİNKLER */
 a {
   color: #0a0a23;
   text-decoration: none;
@@ -60,6 +64,7 @@ a:hover {
   text-decoration: underline;
 }
 
+/* FOOTER */
 footer {
   text-align: center;
   padding: 1rem;
@@ -68,6 +73,7 @@ footer {
   font-size: 0.9rem;
 }
 
+/* PROFİL RESMİ */
 .profile-pic {
   width: 240px;
   height: 240px;
@@ -76,6 +82,7 @@ footer {
   margin-bottom: 10px;
 }
 
+/* BUTON */
 .btn {
   display: inline-block;
   padding: 10px 18px;
@@ -92,6 +99,7 @@ footer {
   transform: translateY(-2px);
 }
 
+/* DARK MODE */
 body.dark {
   background: #121212;
   color: #eee;
@@ -118,117 +126,15 @@ body.dark footer {
   background: #1a1a1a;
 }
 
+/* MOTTO YAZISI (dikey, header içinde, sağ tarafta) */
 .motto {
   position: absolute;
   top: 50%;
   right: 40px;
   transform: translateY(-50%) rotate(90deg);
-  transform-origin: right top;
-  color: #fff;
-  font-size: 1rem;
-  font-style: italic;
-  width: 300px;
-  line-height: 1.5;
-  text-align: center;
-  opacity: 0.9;
-}
-.motto {
-  position: absolute;
-  top: 50%;
-  right: 40px;
-  transform: translateY(-50%) rotate(90deg);
-  transform-origin: right top;
-  color: #fff;
-  font-size: 1rem;
-  font-style: italic;
-  width: 300px;
-  line-height: 1.5;
-  text-align: center;
-  opacity: 0.9;
-}
-.motto {
-  position: absolute;
-  top: 50%;
-  right: 40px;
-  transform: translateY(-50%) rotate(90deg);
-  transform-origin: right top;
-  color: #fff;
-  font-size: 1rem;
-  font-style: italic;
-  width: 300px;
-  line-height: 1.5;
-  text-align: center;
-  opacity: 0.9;
-}
-.motto {
-  position: absolute;
-  top: 50%;
-  right: 40px;
-  transform: translateY(-50%) rotate(90deg);
-  transform-origin: right top;
-  color: #fff;
-  font-size: 1rem;
-  font-style: italic;
-  width: 300px;
-  line-height: 1.5;
-  text-align: center;
-  opacity: 0.9;
-}
-.motto {
-  position: absolute;
-  top: 50%;
-  right: 40px;
-  transform: translateY(-50%) rotate(90deg);
-  transform-origin: right top;
-  color: #fff;
-  font-size: 1rem;
-  font-style: italic;
-  width: 300px;
-  line-height: 1.5;
-  text-align: center;
-  opacity: 0.9;
-}
-.motto {
-  position: absolute;
-  top: 50%;
-  right: 40px;
-  transform: translateY(-50%) rotate(90deg);
-  transform-origin: right top;
-  color: #fff;
-  font-size: 1rem;
-  font-style: italic;
-  width: 300px;
-  line-height: 1.5;
-  text-align: center;
-  opacity: 0.9;
-}
-.motto {
-  position: absolute;
-  top: 50%;
-  right: 40px;
-  transform: translateY(-50%) rotate(90deg);
-  transform-origin: right top;
-  color: #fff;
-  font-size: 1rem;
-  font-style: italic;
-  width: 300px;
-  line-height: 1.5;
-  text-align: center;
-  opacity: 0.9;
-}
-
-header {
-  position: relative;
-}
-
-.motto {
-  position: absolute;
-  top: 50%;
-  right: 40px;
-  transform: translateY(-50%) rotate(90deg); /* yazıyı dikey çevirir */
   transform-origin: right center;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
   opacity: 0.9;
   max-width: 400px;
