@@ -216,3 +216,22 @@ body.dark footer {
   text-align: center;
   opacity: 0.9;
 }
+
+header {
+  position: relative;
+}
+
+.motto {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%) rotate(90deg); /* yazıyı dikey çevirir */
+  transform-origin: right center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.9;
+  max-width: 400px;
+  text-align: center;
+  line-height: 1.4;
+}
