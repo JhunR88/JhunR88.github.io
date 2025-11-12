@@ -198,6 +198,7 @@ a i.fa-linkedin {
 
 /* MOBİL GÖRÜNÜM AYARI KODLARI AŞAĞIDA   MOBİL GÖRÜNÜM AYARI KODLARI AŞAĞIDA    MOBİL GÖRÜNÜM AYARI KODLARI AŞAĞIDA   MOBİL GÖRÜNÜM AYARI KODLARI AŞAĞIDA: */
 
+
 @media (max-width: 768px) {
   nav {
     position: fixed;
@@ -247,4 +248,5 @@ a i.fa-linkedin {
     font-size: 0.9rem;
   }
 }
+
 
