@@ -241,7 +241,7 @@ body {
   color: #333;
   line-height: 1.6;
   margin: 0;
-  padding-top: 60px; /* Nav yüksekliği kadar boşluk */
+  padding-top: 30px; /* Nav yüksekliği kadar boşluk */
 }
 
 /* --- Mobil uyumluluk --- */
