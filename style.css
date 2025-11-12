@@ -199,25 +199,41 @@ a i.fa-linkedin {
 /* MOBİL GÖRÜNÜM AYARI KODLARI AŞAĞIDA   MOBİL GÖRÜNÜM AYARI KODLARI AŞAĞIDA    MOBİL GÖRÜNÜM AYARI KODLARI AŞAĞIDA   MOBİL GÖRÜNÜM AYARI KODLARI AŞAĞIDA: */
 
 @media (max-width: 768px) {
-  /* Navigasyon bar */
   nav {
-    flex-direction: row;
-    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 3cm;
+    display: flex;
     align-items: center;
-    height: 3rem; /* yaklaşık 3 cm */
-    padding: 0 0.5rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
   }
 
   nav a {
+    display: inline-block;
+    padding: 0 1rem;
     font-size: 0.9rem;
-    padding: 0.3rem 0.5rem;
+    line-height: 2cm;
+    color: #0a0a23;
+    text-decoration: none;
+    flex: 0 0 auto;
   }
 
-  /* Header (profil ve başlık çakışmasın) */
+  nav a:hover {
+    color: #555;
+  }
+
+  /* Header’ın üstteki barla çakışmaması için boşluk */
   header {
-    padding-top: 5rem; /* navigasyon barla çakışmayı önler */
+    margin-top: 3.5cm;
   }
 
+  /* Profil resmi ve başlık mobilde küçülsün */
   .profile-pic {
     width: 100px;
     height: 100px;
@@ -230,13 +246,5 @@ a i.fa-linkedin {
   header p {
     font-size: 0.9rem;
   }
-
-  /* Genel düzen */
-  main {
-    padding: 0 1rem;
-  }
-
-  body {
-    overflow-x: hidden; /* yatay kaydırmayı engelle */
-  }
 }
+
