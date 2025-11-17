@@ -7,3 +7,14 @@ document.getElementById('theme-toggle').addEventListener('click', () => {
     btn.textContent = '🌙 Dark Mode';
   }
 });
+
+// SKILLS BÖLÜMÜ SKILLS BÖLÜMÜ SKILLS BÖLÜMÜ SKILLS BÖLÜMÜ SKILLS BÖLÜMÜ SKILLS BÖLÜMÜ SKILLS BÖLÜMÜ SKILLS BÖLÜMÜ SKILLS BÖLÜMÜ
+// skill bar dolma animasyonu (sayfa yüklendiğinde)
+window.addEventListener('load', () => {
+  document.querySelectorAll('.skill-fill').forEach(el => {
+    const w = el.style.width || el.getAttribute('data-width');
+    // Eğer inline style kullanılmadıysa data-width ile ver
+    el.style.width = w;
+  });
+});
+
