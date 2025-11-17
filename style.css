@@ -248,5 +248,9 @@ a i.fa-linkedin {
     font-size: 0.9rem;
   }
 }
+body.dark h2 {
+  color: #fff;
+  border-color: #fff;
+}
 
 
