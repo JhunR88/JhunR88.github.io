@@ -307,7 +307,20 @@ body.dark h2 {
   transition: width 1s ease;
 }
 
-/* seviye yazısı */
+/* SEVİYE GENİŞLİKLERİ (ASIL DÜZELTİLEN KISIM) */
+.skill-fill.beginner {
+  width: 35%;
+}
+
+.skill-fill.medium {
+  width: 60%;
+}
+
+.skill-fill.advanced {
+  width: 85%;
+}
+
+/* Seviye yazısı */
 .skill-level {
   font-size: 0.9rem;
   color: #666;
@@ -318,7 +331,8 @@ body.dark h2 {
 @media (max-width: 768px) {
   .skills-grid { grid-template-columns: 1fr; }
   .skill { grid-template-columns: 1fr 100px; }
-  .skill-level { display: none; } /* istersen mobilde sakla */
+  .skill-level { display: none; }
 }
+
 
 
