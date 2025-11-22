@@ -254,34 +254,73 @@ body.dark h2 {
 }
 
 /* SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ*/
-/* Skill bar seviyeleri */
-.skill-fill.beginner {
-  width: 35%;
+.skills-section {
+  max-width: 1000px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
 }
 
-.skill-fill.medium {
-  width: 60%;
+.skills-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color, #0a0a23);
 }
 
-.skill-fill.advanced {
-  width: 85%;
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
 }
 
-/* Bar animasyonu */
+.skill-group h3 {
+  margin: 0 0 0.8rem 0;
+  font-size: 1.05rem;
+  color: #222;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: 1fr 140px 80px;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0;
+}
+
+.skill-name {
+  font-weight: 600;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 10px;
+  background: rgba(10,10,35,0.08);
+  border-radius: 999px;
+  overflow: hidden;
+  position: relative;
+}
+
 .skill-fill {
   height: 100%;
   background: linear-gradient(90deg,#00bcd4,#4cc9f0);
+  width: 0%;
   border-radius: 999px;
   transition: width 1s ease;
 }
 
+/* seviye yazısı */
+.skill-level {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: right;
+}
 
-/* Responsive */
+/* Responsive: tek sütun mobil */
 @media (max-width: 768px) {
   .skills-grid { grid-template-columns: 1fr; }
   .skill { grid-template-columns: 1fr 100px; }
-  .skill-level { display: none; }
+  .skill-level { display: none; } /* istersen mobilde sakla */
 }
+
 
 
 
