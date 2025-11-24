@@ -321,6 +321,43 @@ body.dark h2 {
   .skill-level { display: none; } /* istersen mobilde sakla */
 }
 
+/* PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ */
+/* Proje kartları */
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #0a0a23;
+}
+
+/* Dark Mode desteği */
+body.dark .project-card {
+  background: #1c1c1c;
+  color: #eee;
+  box-shadow: 0 2px 6px rgba(255,255,255,0.05);
+}
+
+body.dark .project-card h3 {
+  color: #fff;
+}
 
 
 
