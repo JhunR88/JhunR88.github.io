@@ -407,6 +407,93 @@ body.dark {
     --border-color: #333;
 }
 
+/* Responsive Mobil Tasarımı Responsive Mobil Tasarımı Responsive Mobil Tasarımı Responsive Mobil Tasarımı Responsive Mobil Tasarımı Responsive Mobil Tasarımı */
+/* 768px ve altı cihazlar için */
+@media (max-width: 768px) {
+
+    /* Header Navigation */
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        white-space: nowrap;
+        width: 100%;
+        justify-content: flex-start;
+        padding-bottom: 8px;
+        gap: 12px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    /* Profil Bölümü */
+    .profile-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .profile-image {
+        width: 130px;
+        height: 130px;
+        margin-bottom: 12px;
+    }
+
+    .vertical-text {
+        writing-mode: horizontal-tb;
+        text-orientation: initial;
+        transform: none;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    /* Bölüm Başlıkları */
+    section h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+    /* Skills Bölümü */
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    /* Proje Kartları */
+    .projects-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project-card {
+        width: 100%;
+        padding: 18px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 15px;
+        font-size: 13px;
+    }
+}
+
 
 
 
