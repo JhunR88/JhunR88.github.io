@@ -493,7 +493,79 @@ body.dark {
         font-size: 13px;
     }
 }
+/* Modern Dark Mode Tasarım Modern Dark Mode Tasarım Modern Dark Mode Tasarım Modern Dark Mode Tasarım Modern Dark Mode Tasarım Modern Dark Mode Tasarım */
+/* Tema geçiş animasyonu */
+body, header, nav ul li a, section, .project-card, .skills-container div, footer {
+    transition: all 0.3s ease;
+}
 
+/* Light Mode (varsayılan) */
+body.light-mode {
+    background-color: #f5f7fa;
+    color: #1a1a1a;
+}
+
+header.light-mode {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.light-mode .project-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+.light-mode nav ul li a:hover {
+    color: #0077ff;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #0d1117;
+    color: #e6e6e6;
+}
+
+header.dark-mode {
+    background-color: rgba(22, 27, 34, 0.85);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+.dark-mode nav ul li a {
+    color: #e6e6e6;
+}
+
+.dark-mode nav ul li a:hover {
+    color: #4ea1ff;
+}
+
+.dark-mode .project-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.dark-mode .skills-container div {
+    background: #22272e;
+    border: 1px solid #2d333b;
+    color: #d0d7de;
+}
+
+.dark-mode a {
+    color: #4ea1ff;
+}
+
+/* Bölüm Başlıkları */
+.dark-mode h2 {
+    color: #ffffff;
+}
+
+/* Footer */
+.dark-mode footer {
+    background-color: #161b22;
+    color: #6e7681;
+}
 
 
 
