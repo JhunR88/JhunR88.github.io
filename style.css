@@ -535,3 +535,25 @@ header.scrolled {
 .contact-form button:hover {
   background: #007bff;
 }
+.contact-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #0a84ff;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+  background-color: #006cdf;
+  transform: translateY(-2px);
+}
+
+.contact-btn:active {
+  transform: scale(0.98);
+}
