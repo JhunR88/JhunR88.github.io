@@ -27,3 +27,13 @@ window.addEventListener("scroll", function () {
     header.classList.remove("scrolled");
   }
 });
+
+
+// contact form işlemleri// 
+document.querySelector("form").addEventListener("submit", function(e) {
+  e.preventDefault();
+  
+  alert("Your message has been sent successfully!");
+  this.reset();
+});
+
