@@ -309,3 +309,45 @@ header.scrolled {
 .contact-form button:hover {
   background: var(--accent-hover);
 }
+
+/* Blog Section */
+#blog {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+#blog h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color, #333);
+}
+
+.blog-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.blog-card {
+  width: 260px;
+  background: rgba(240, 240, 240, 0.6);
+  border-radius: 10px;
+  padding: 1rem;
+  transition: 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color, #333);
+}
+
+.coming-soon {
+  opacity: 0.6;
+  border: 2px dashed #999;
+}
