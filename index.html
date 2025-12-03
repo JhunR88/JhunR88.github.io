@@ -30,23 +30,23 @@
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
 </head>
 
-  
 <body>
+
   <nav class="navbar">
-  <div class="navbar-container">
-    <div class="navbar-logo">Jayhun R</div>
-    <ul class="navbar-menu">
-      <li><a href="#">Yazılım & Programlama Dersleri</a></li>
-      <li><a href="#">Yabancı Dil</a></li>
-      <li><a href="#">Beklemede</a></li>
-      <li><a href="#">Beklemede</a></li>
-      <li><a href="#">Beklemede</a></li>
-    </ul>
-  </div>
-</nav>
+    <div class="navbar-container">
+      <div class="navbar-logo">Jayhun R</div>
+      <ul class="navbar-menu">
+        <li><a href="#">Yazılım & Programlama Dersleri</a></li>
+        <li><a href="#">Yabancı Dil</a></li>
+        <li><a href="#">Beklemede</a></li>
+        <li><a href="#">Beklemede</a></li>
+        <li><a href="#">Beklemede</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <header>
     <img src="profil.jpg" alt="Jayhun.R" class="profile-pic">
     <button id="theme-toggle" class="btn">🌙 Dark Mode</button>
@@ -55,44 +55,134 @@
   </header>
 
   <main>
+
     <section id="about">
       <h2>Hakkımda</h2>
       <p>
         Kariyerime Medeniyet Üniversitesi’nde sanat eğitimi alarak ve film-sinema sektöründe çalışarak başladım.
         Zamanla teknolojinin yaratıcılıkla birleştiği yazılım alanına yöneldim.
-        C#, SQL, JavaScript ve CSS dilleriyle masaüstü ve web tabanlı uygulamalar geliştiriyor, kullanıcı deneyimini merkezine alan projeler üretiyorum.
-        Bugün yazılımı sadece bir araç değil, yenilik ve üretkenliğin dili olarak görüyor, dijital dünyada değer katan çözümler geliştiriyorum.
+        C#, SQL, JavaScript ve CSS dilleriyle masaüstü ve web tabanlı uygulamalar geliştiriyor,
+        kullanıcı deneyimini merkezine alan projeler üretiyorum.
+        Bugün yazılımı yenilik ve üretkenliğin dili olarak görüyor, dijital dünyada çözümler geliştiriyorum.
       </p>
     </section>
 
-    <section id="projects">
-      <h2>Projeler</h2>
-      <ul>
-        <li><strong>İŞLETME ALANI:</strong> İşletmeler için geliştirilen masaüstü uygulamalar arasında. 
-                                                        Merkez bilgi sistemini yöneten yapay zeka destekli asistanlar. 
-                                                        Kayıt süreçlerini düzenleyen yönetim yazılımları
-                                                        Operasyonel verimliliği artırmak ve dijital dönüşümü desteklemek amacıyla tasarlanan uygulamalar</li>
-        <li><strong>SOSYEL MEDYA İÇERİKLERİ / FİLM, SİNEMA VE TANITIM:</strong> Bilim, teknoloji, tarih, spor, aile, psikoloji ve sanat alanlarında özgün içerikler. 
-                                                                                İzleyiciye ilgi çekici bilgiler ve tanıtıcı paylaşımlar.</li>
-      </ul>
+    <!-- SKILLS -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <div class="skill">
+            <span class="skill-name">C#</span>
+            <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+            <span class="skill-level">Advanced</span>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+            <span class="skill-level">Intermediate</span>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">SQL (MSSQL)</span>
+            <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+            <span class="skill-level">Advanced</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Frameworks & Tools</h3>
+          <div class="skill">
+            <span class="skill-name">.NET / Windows Forms</span>
+            <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+            <span class="skill-level">Advanced</span>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">Git</span>
+            <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+            <span class="skill-level">Intermediate</span>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">HTML / CSS</span>
+            <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+            <span class="skill-level">Intermediate</span>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="contact">
+    <!-- PROJELER -->
+    <section id="projects" class="projects-section">
+      <h2>Projeler</h2>
+
+      <div class="projects-container">
+
+        <div class="project-card">
+          <h3>TOGA Emlak ve Danışmanlık</h3>
+          <p>Emlak ve gayrimenkul işlemleri için kayıt programı.</p>
+          <ul class="project-info">
+            <li><strong>Teknolojiler:</strong> C#, MSSQL</li>
+            <li><strong>Tür:</strong> Masaüstü Uygulama</li>
+          </ul>
+          <a class="project-btn" href="https://github.com/JhunR88/toga-emlak-danismanlik.git" target="_blank">GitHub Repo</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Kütüphane Yönetim Sistemi</h3>
+          <p>Kütüphane kitap alış ve iade takip sistemi.</p>
+          <ul class="project-info">
+            <li><strong>Teknolojiler:</strong> C#, MSSQL</li>
+            <li><strong>Tür:</strong> Masaüstü Uygulama</li>
+          </ul>
+          <a class="project-btn" href="https://github.com/JhunR88/kutuphane-yonetim-sistemi.git" target="_blank">GitHub Repo</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Dijital Bilgi Asistanı</h3>
+          <p>İşletme çalışanlarının ihtiyaç duyduğu tüm bilgilere erişim sağlayan asistan.</p>
+          <ul class="project-info">
+            <li><strong>Teknolojiler:</strong> C#, MSSQL</li>
+            <li><strong>Tür:</strong> Masaüstü Uygulama</li>
+          </ul>
+          <a class="project-btn" href="https://github.com/JhunR88/dijital-bilgi-asistani.git" target="_blank">GitHub Repo</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
       <h2>İletişim</h2>
+
       <div class="buttons">
         <a href="mailto:jayhun9999@gmail.com" class="btn">Email Me</a>
         <a href="https://linkedin.com/in/ceyhun-rahimov-3519a5248" target="_blank" class="btn">LinkedIn</a>
         <a href="https://github.com/JhunR88" target="_blank" class="btn">GitHub</a>
         <a href="https://instagram.com/jyhun.r_official" target="_blank" class="btn">Instagram</a>
       </div>
-      <p>📧 <a href="mailto:jayhun9999@gmail.com">jayhun9999@gmail.com</a></p>
-      <p>🌐 <a href="https://github.com/JhunR88" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/kullaniciadi" target="_blank">
-            <i class="fa-brands fa-linkedin"></i> LinkedIn
-            <a href="https://instagram.com/jyhun.r_official" target="_blank"></a> 
-            <i class="fa-brands fa-instagram"></i> Instagram
-            </a>
+
+      <form action="https://formsubmit.co/jayhun9999@gmail.com" method="POST" class="contact-form">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://seninsiten.com/tesekkurler.html">
+
+        <label for="name">Ad Soyad</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mesaj</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Gönder</button>
+      </form>
     </section>
+
   </main>
 
   <footer>
@@ -102,136 +192,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
-<!-- SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ SKİLLS BÖLÜMÜ -->
-
-<section id="skills" class="skills-section">
-  <h2>Skills</h2>
-
-  <div class="skills-grid">
-    <div class="skill-group">
-      <h3>Languages</h3>
-      <div class="skill">
-        <span class="skill-name">C#</span>
-        <div class="skill-bar" aria-hidden="true"><div class="skill-fill" style="width:85%"></div></div>
-        <span class="skill-level">Advanced</span>
-      </div>
-
-      <div class="skill">
-        <span class="skill-name">JavaScript</span>
-        <div class="skill-bar" aria-hidden="true"><div class="skill-fill" style="width:70%"></div></div>
-        <span class="skill-level">Intermediate</span>
-      </div>
-
-      <div class="skill">
-        <span class="skill-name">SQL (MSSQL)</span>
-        <div class="skill-bar" aria-hidden="true"><div class="skill-fill" style="width:80%"></div></div>
-        <span class="skill-level">Advanced</span>
-      </div>
-    </div>
-
-    <div class="skill-group">
-      <h3>Frameworks & Tools</h3>
-      <div class="skill">
-        <span class="skill-name">.NET / Windows Forms</span>
-        <div class="skill-bar" aria-hidden="true"><div class="skill-fill" style="width:85%"></div></div>
-        <span class="skill-level">Advanced</span>
-      </div>
-
-      <div class="skill">
-        <span class="skill-name">Git</span>
-        <div class="skill-bar" aria-hidden="true"><div class="skill-fill" style="width:75%"></div></div>
-        <span class="skill-level">Intermediate</span>
-      </div>
-
-      <div class="skill">
-        <span class="skill-name">HTML / CSS</span>
-        <div class="skill-bar" aria-hidden="true"><div class="skill-fill" style="width:75%"></div></div>
-        <span class="skill-level">Intermediate</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ PROJELER BÖLÜMÜ -->
-<section id="projects" class="projects-section">
-    <h2>Projeler</h2>
-
-    <div class="projects-container">
-
-        <!-- Proje 1 -->
-        <div class="project-card">
-            <h3>TOGA Emlak ve Danışmanlık</h3>
-            <p>Emlak ve gayrimenkul işlemleri için kayıt programı.</p>
-
-            <ul class="project-info">
-                <li><strong>Teknolojiler:</strong> C#, MSSQL</li>
-                <li><strong>Tür:</strong> Masaüstü Uygulama</li>
-            </ul>
-
-            <a class="project-btn" href="https://github.com/JhunR88/toga-emlak-danismanlik.git" target="_blank">
-                GitHub Repo
-            </a>
-        </div>
-
-        <!-- Proje 2 -->
-        <div class="project-card">
-            <h3>Kütüphane Yönetim Sistemi</h3>
-            <p>Kütüphane kitap alış ve iade takip sistemi.</p>
-
-            <ul class="project-info">
-                <li><strong>Teknolojiler:</strong> C#, MSSQL</li>
-                <li><strong>Tür:</strong> Masaüstü Uygulama</li>
-            </ul>
-
-            <a class="project-btn" href="https://github.com/JhunR88/kutuphane-yonetim-sistemi.git" target="_blank">
-                GitHub Repo
-            </a>
-        </div>
-
-        <!-- Proje 3 -->
-        <div class="project-card">
-            <h3>Dijital Bilgi Asistanı</h3>
-            <p>Bir işletmenin çalışanlarının işletmeyle ilgili ulaşabileceği her türlü bilgi asistanı.</p>
-
-            <ul class="project-info">
-                <li><strong>Teknolojiler:</strong> C#, MSSQL</li>
-                <li><strong>Tür:</strong> Masaüstü Uygulama</li>
-            </ul>
-
-            <a class="project-btn" href="https://github.com/JhunR88/dijital-bilgi-asistani.git" target="_blank">
-                GitHub Repo
-            </a>
-        </div>
-
-    </div>
-</section>
-
-  </div>
-</section>
-
-
-
-<!-- Contact Form Eklemek (Gerçekten Çalışan) Contact Form Eklemek (Gerçekten Çalışan) Contact Form Eklemek (Gerçekten Çalışan) -->
-<section id="contact" class="section">
-  <h2>İletişim</h2>
-  <form action="https://formsubmit.co/jayhun9999@gmail.com" method="POST" class="contact-form">
-    
-    <!-- Bot koruma -->
-    <input type="hidden" name="_captcha" value="false">
-
-    <!-- Gönderim sonrası yönlendirme -->
-    <input type="hidden" name="_next" value="https://seninsiten.com/tesekkurler.html">
-
-    <label for="name">Ad Soyad</label>
-    <input type="text" id="name" name="name" required>
-
-    <label for="email">E-mail</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="message">Mesaj</label>
-    <textarea id="message" name="message" rows="4" required></textarea>
-
-    <button type="submit">Gönder</button>
-  </form>
-</section>
