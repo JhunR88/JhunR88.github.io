@@ -351,3 +351,21 @@ header.scrolled {
   opacity: 0.6;
   border: 2px dashed #999;
 }
+
+/* CV İŞLEMİ */
+.cv-download {
+  display: inline-block;
+  padding: 10px 16px;
+  background: var(--accent, #0a0a23);
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform .15s ease, background .15s ease;
+}
+
+.cv-download:hover {
+  transform: translateY(-2px);
+  background: #1a1a40;
+}
+
