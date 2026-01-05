@@ -127,56 +127,71 @@
       </div>
     </section>
 
-    <!-- PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER -->
-    <section id="projects" class="projects-section">
-      <h2>Projeler</h2>
+    <!-- PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER PROJELER -->
+<section id="projects" class="projects-section">
+  <h2>Projeler</h2>
 
-      <div class="projects-container">
+  <!-- Filter Buttons -->
+  <div class="project-filters">
+    <button class="filter-btn active" data-filter="all">Hepsi</button>
+    <button class="filter-btn" data-filter="csharp">C#</button>
+    <button class="filter-btn" data-filter="python">Python</button>
+    <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+  </div>
 
-        <div class="project-card">
-          <h3>TOGA Emlak ve Danışmanlık</h3>
-          <p>Emlak ve gayrimenkul işlemleri için kayıt programı.</p>
-          <ul class="project-info">
-            <li><strong>Teknolojiler:</strong> C#, MSSQL</li>
-            <li><strong>Tür:</strong> Masaüstü Uygulama</li>
-          </ul>
-          <a class="project-btn" href="https://github.com/JhunR88/toga-emlak-danismanlik.git" target="_blank">GitHub Repo</a>
-        </div>
+  <!-- Project List -->
+  <div class="project-list">
 
-        <div class="project-card">
-          <h3>Kütüphane Yönetim Sistemi</h3>
-          <p>Kütüphane kitap alış ve iade takip sistemi.</p>
-          <ul class="project-info">
-            <li><strong>Teknolojiler:</strong> C#, MSSQL</li>
-            <li><strong>Tür:</strong> Masaüstü Uygulama</li>
-          </ul>
-          <a class="project-btn" href="https://github.com/JhunR88/kutuphane-yonetim-sistemi.git" target="_blank">GitHub Repo</a>
-        </div>
-
-        <div class="project-card">
-          <h3>Dijital Bilgi Asistanı</h3>
-          <p>İşletme çalışanlarının ihtiyaç duyduğu tüm bilgilere erişim sağlayan asistan.</p>
-          <ul class="project-info">
-            <li><strong>Teknolojiler:</strong> C#, MSSQL</li>
-            <li><strong>Tür:</strong> Masaüstü Uygulama</li>
-          </ul>
-          <a class="project-btn" href="https://github.com/JhunR88/dijital-bilgi-asistani.git" target="_blank">GitHub Repo</a>
-        </div>
-      </div>
-    </section>
-    <!-- Blog Section -->
-<section id="blog">
-  <div class="container">
-    <h2>Blog</h2>
-    <p>Yazılım, teknoloji ve yapay zeka üzerine yakında içerikler gelecek.</p>
-    <div class="blog-list">
-      <div class="blog-card coming-soon">
-        <h3>Yakında</h3>
-        <p>Yeni içerikler ekleniyor...</p>
-      </div>
+    <div class="project-card" data-category="csharp">
+      <h3>TOGA Emlak ve Danışmanlık</h3>
+      <p>Emlak ve gayrimenkul işlemleri için kayıt programı.</p>
+      <ul class="project-info">
+        <li><strong>Teknolojiler:</strong> C#, MSSQL</li>
+        <li><strong>Tür:</strong> Masaüstü Uygulama</li>
+      </ul>
+      <a class="project-btn" href="https://github.com/JhunR88/toga-emlak-danismanlik.git" target="_blank">
+        GitHub Repo
+      </a>
     </div>
+
+    <div class="project-card" data-category="csharp">
+      <h3>Kütüphane Yönetim Sistemi</h3>
+      <p>Kütüphane kitap alış ve iade takip sistemi.</p>
+      <ul class="project-info">
+        <li><strong>Teknolojiler:</strong> C#, MSSQL</li>
+        <li><strong>Tür:</strong> Masaüstü Uygulama</li>
+      </ul>
+      <a class="project-btn" href="https://github.com/JhunR88/kutuphane-yonetim-sistemi.git" target="_blank">
+        GitHub Repo
+      </a>
+    </div>
+
+    <div class="project-card" data-category="csharp">
+      <h3>Dijital Bilgi Asistanı</h3>
+      <p>İşletme çalışanlarının ihtiyaç duyduğu tüm bilgilere erişim sağlayan asistan.</p>
+      <ul class="project-info">
+        <li><strong>Teknolojiler:</strong> C#, MSSQL</li>
+        <li><strong>Tür:</strong> Masaüstü Uygulama</li>
+      </ul>
+      <a class="project-btn" href="https://github.com/JhunR88/dijital-bilgi-asistani.git" target="_blank">
+        GitHub Repo
+      </a>
+    </div>
+
+    <!-- Gelecek projeler (placeholder) -->
+    <div class="project-card" data-category="python">
+      <h3>Python Automation Tool</h3>
+      <p>Dosya ve veri otomasyonu (yakında).</p>
+    </div>
+
+    <div class="project-card" data-category="fullstack">
+      <h3>Personal Portfolio Website</h3>
+      <p>HTML, CSS, JavaScript tabanlı kişisel site.</p>
+    </div>
+
   </div>
 </section>
+
 
    <!-- CONTACT -->
 <section id="contact" class="section">
